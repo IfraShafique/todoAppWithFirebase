@@ -46,7 +46,7 @@ export default function Items(props) {
           className='text-xs bg-[#F685EE] outline-none sm:text-[1rem] text-black sm:[80%] xl:w-[90%] w-[80%]'
           value={editedItem}
           onChange={(e) => setEditedItem(e.target.value)}
-          onKeyDown={handleEditSave}
+          onKeyDown={handleKeyDown}
           autoFocus
         />
       ) : (
